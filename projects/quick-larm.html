@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <title>QuickLarm | Sofia Muroga</title>
+
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts (Google Fonts CDN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+
+</head>
+<body data-page="work">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="progress-bar" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar__fill" data-progress-fill></div>
+  </div>
+
+  <header class="navbar">
+    <nav aria-label="Primary" class="container navbar__inner">
+      <a href="../index.html" class="navbar__logo">
+        Sofia Muroga
+      </a>
+
+      <ul class="navbar__links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../projects.html" aria-current="page">Work</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+
+      <div class="navbar__cta">
+        <a href="../about.html#talk" class="btn btn--secondary btn--sm">Get in touch</a>
+      </div>
+
+      <button type="button" class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <svg class="navbar__icon-open" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M2.5 5.5H17.5M2.5 10H17.5M2.5 14.5H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+	<svg class="navbar__icon-close" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+		<path d="M4 4L16 16M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div id="mobileNav" class="navbar__mobile">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../projects.html">Work</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <a href="../about.html#talk" class="btn btn--primary btn--block">Get in touch</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="breadcrumb-bar">
+      <nav aria-label="Breadcrumb" class="container breadcrumb">
+        <a href="../projects.html">Work</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">QuickLarm</span>
+      </nav>
+    </div>
+
+    <!-- Case hero -->
+    <header class="case-hero">
+      <div class="container">
+        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+          <span class="tag">UI</span>
+          <span class="tag">Prototype Development</span>
+          <span class="tag">Mobile</span>
+        </div>
+
+        <h1>QuickLarm</h1>
+        <p class="case-hero__summary">Exploring possible experiences and services to create an interactive digital prototype of a design concept within the following problem area:
+          <br>Digital tools for saving seconds in rescue operations.
+        </p>
+        <dl class="case-hero__facts">
+          <div><dt>Tools</dt><dd>Figma, Illustrator, Adobe XD</dd></div>
+          <div><dt>Field</dt><dd>UX/UI Design, Prototype Development, Product Development</dd></div>
+          <div><dt>Stakeholder</dt><dd>University of Kristianstad</dd></div>
+        </dl>
+
+        <div class="case-hero__cover">
+          <img src="../images/projects/quick-larm/cover.webp" alt="Cover artwork for the QuickLarm design case study" loading="eager" />
+        </div>
+      
+        <div class="callout callout--info" style="margin-top: 3rem;">
+            This project is for University of Kristianstad's course Interaction Design: Early Stage Prototype Development, looking to explore possible experiences and services to create an interactive digital prototype of a design concept within the problem area delays in emergency services.
+        </div>
+
+      </div>
+    </header>
+
+    <div class="container case-body">
+      <aside class="case-toc">
+        <ul>
+          <li><a href="#background" data-toc-link="background">Background</a></li>
+          <li><a href="#problem" data-toc-link="problem">Problem</a></li>
+          <li><a href="#opportunity" data-toc-link="opportunity">Opportunity</a></li>
+          <li><a href="#research" data-toc-link="research">Market research</a></li>
+          <li><a href="#concept" data-toc-link="concept">User research & concept ideation</a></li>
+          <li><a href="#prototype" data-toc-link="prototype">Mock-up & prototyping</a></li>
+          <li><a href="#scenario" data-toc-link="scenario">User scenario test</a></li>
+          <li><a href="#solution" data-toc-link="solution">Design solution</a></li>
+          <li><a href="#midfidelity" data-toc-link="midfidelity">Mid fidelity prototype</a></li>
+          <li><a href="#highfidelity" data-toc-link="highfidelity">High fidelity prototype</a></li>
+          <li><a href="#device" data-toc-link="device">QuickTouch device</a></li>
+          <li><a href="#reflection" data-toc-link="reflection">Reflection</a></li>
+        </ul>
+      </aside>
+
+      <div class="case-sections">
+
+        <section id="background" class="case-section">
+          <h2 class="accent-title">Background</h2>
+          <div class="case-section__body">
+            <p>In emergency situations every second counts. 
+              When someone loses consciousness due to a medical condition like diabetes or heart problem, it's critical that first responders have immediate access to relevant medical information. 
+              However, unconscious individuals can't communicate their health needs, and important details like allergies, medications, or pre-existing conditions may not be immediately available. 
+              Although medical alert bracelets or ID cards exist, they aren't always worn or they might be hard to find in a chaotic emergency. 
+              There's a clear need for a more reliable and accessible way to quickly share this vital information during a crisis.</p>
+          </div>
+
+        </section>
+
+        <section id="problem" class="case-section">
+          <h2 class="accent-title">Problem</h2>
+          <div class="case-section__body">
+            <p>When someone collapses in public due to a health emergency, bystanders and emergency responders often have no way of knowing what medical issues the person might be facing. 
+              Without identification responders can be left scrambling for critical information, which could lead to delays in treatment or even harmful mistakes. 
+              This lack of information, coupled with the urgency of the situation, can put lives at risk.</p>
+          </div>
+        </section>
+
+        <section id="opportunity" class="case-section">
+          <h2 class="accent-title">Opportunity</h2>
+          <div class="case-section__body">
+            <p>This project offers the chance to develop a practical, digital solution that ensures emergency responders have immediate access to a person's medical information when they need it most. 
+              The idea is to create an app that connects to a small, easy-to-carry device that can instantly send a user's health profile to emergency services at the push of a button. 
+              By integrating this kind of system, we could drastically reduce response time, prevent errors and ultimately save lives in emergencies.</p>
+            <p>The primary target audience for this digital solution is individuals with existing medical conditions.</p>
+            </div>
+        </section>
+
+        <section id="research" class="case-section">
+          <h2 class="accent-title">Market research</h2>
+          <div class="case-section__body">
+            <p>To better understand the role of digital solutions in improving emergency response, I explored recent innovations aimed at reducing response times in critical situations.
+               One notable study by researchers at the Hjärtstoppscentrum at the Karolinska Institute, tested the use of drones to deliver defibrillators to remote locations where traditional ambulance services may face delays.</p>
+            <figure class="quote">
+            <blockquote>"For each minute without treatment, the chance of survival decreases by up to 10%."</blockquote>
+            <figcaption>Schierbeck, S., et al. (2021). Automated external defibrillators delivered by drones to patients with suspected out-of-hospital cardiac arrest. European Heart Journal.</figcaption>
+          </figure>
+            <p>The study found that drones were able to reach the scene faster than ambulances in many cases, potentially saving crucial minutes. 
+              This research highlights the growing role of technology in emergency services, which is a key inspiration for my project: using digital tools to quickly share critical medical information and improve response times when every second counts.
+            </p>
+          </div>
+        </section>
+
+        <section id="concept" class="case-section">
+          <h2 class="accent-title">User research & concept ideation</h2>
+          <div class="case-section__body">
+            <p>After a brainstorming session for design solutions, I gathered three stakeholders in a design workshop where we evaluated different needs, functions and user scenarios, and they told me what they find most important. 
+              This gave me valuable insight into different opinions of mobile apps, data privacy concerns, ethical medical practice.</p>
+            <p>It was important that these three stakeholders had a diverse background to ensure the design addressed a broad range of cultural, generational, and social perspectives, helping to uncover potential biases and ensuring the solution would be inclusive and accessible to a wide audience.</p>
+            <p>They all had different concerns. The Swedish woman was more concerned about data privacy, and gave valuable information in relation to parenting and ability to connect the app with your children, the Italian woman had opinions about medical bias, where the Japanese man was more concerned about functionality.</p>
+          </div>
+          <div class="persona-grid">
+            <div class="persona-card">
+              <div class="persona-card__head">
+                <img src="../images/projects/quick-larm/p1.svg" alt="Portrait representing the participant p1" loading="lazy" />
+                <div>
+                  <h4>P1, woman</h4>
+                  <p class="mono-label">Swedish</p>
+                  <p class="mono-label">Age 50+</p>
+                </div>
+              </div>
+              <div class="persona-card__body">
+                <blockquote class="persona-card__quote">"Data privacy"</blockquote>
+                <blockquote class="persona-card__quote">"Connectivity with family members"</blockquote>
+              </div>
+            </div>
+            <div class="persona-card">
+              <div class="persona-card__head">
+                <img src="../images/projects/quick-larm/p2.svg" alt="Portrait representing the participant p2" loading="lazy" />
+                <div>
+                  <h4>P2, woman</h4>
+                  <p class="mono-label">Italian</p>
+                  <p class="mono-label">Age 30+</p>
+                </div>
+              </div>
+              <div class="persona-card__body">
+                <blockquote class="persona-card__quote">"Medical bias"</blockquote>
+              </div>
+            </div>
+            <div class="persona-card">
+              <div class="persona-card__head">
+                <img src="../images/projects/quick-larm/p3.svg" alt="Portrait representing the participant p3" loading="lazy" />
+                <div>
+                  <h4>P3, man</h4>
+                  <p class="mono-label">Japanese</p>
+                  <p class="mono-label">Age 25+</p>
+                </div>
+              </div>
+              <div class="persona-card__body">
+                <blockquote class="persona-card__quote">"Functionality"</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/quick-larm/concept.webp">
+                <img src="../images/projects/quick-larm/concept.webp" loading="lazy" />
+              </button>
+              <figcaption>Concept sketches from the design workshop.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section id="prototype" class="case-section">
+          <h2 class="accent-title">Mock-up & prototyping</h2>
+          <div class="case-section__body">
+            <p>With the stakeholder feedback I developed a prototype based on the idea of saving your information in a profile in an app that can (with the users expressed consent) be sent to the emergency operator through an external digital device.</p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/quick-larm/prototype.webp">
+                <img src="../images/projects/quick-larm/prototype.webp" loading="lazy" />
+              </button>
+            </figure>
+          </div>
+          <div class="case-section__body">
+            <div class="persona-card">
+              <div class="persona-card__head">
+                <img src="../images/projects/quick-larm/p1.svg" alt="Portrait representing the expert participant" loading="lazy" />
+                <div>
+                  <h4>Certified Nursing Assistant in emergency ambulance care</h4>
+                  <p>In building this paper prototype I consulted with a Certified Nursing Assistant in Sweden who has completed a 40-week course in Emergency Ambulance care. 
+                    She's been actively working with emergency ambulance care for 20 years.
+                    She explains how their system works and the problem areas she sees within ambulance care system. One of the areas for improvement she identifies is that SOS (emergency dispatch) does not always have enough information. 
+                    The information should be concise, but sometimes relevant details are missing that could affect the outcome. One example she mentioned was that they could receive an alert about a person who is suddenly confused, but the fact that the person is diabetic might be missing from the report. 
+                    Confusion is common with low blood sugar, and this information would be crucial for responders to know.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="scenario" class="case-section">
+          <h2 class="accent-title">User scenario test</h2>
+          <div class="case-section__body">
+            <p>To explore the functionality of the prototype in a real-world context, I recruited two stakeholders to conduct a role-playing session using a paper prototype. 
+              The participants acted out a user scenario where one portrayed an unconscious person, and the other played a bystander needing to alert emergency services.</p>
+            <p>I provided an overview of the scenario but allowed the stakeholders to guide the interaction themselves, ensuring the experience felt as natural and authentic as possible. 
+              This approach helped assess the design's usability in a dynamic, real-world setting. 
+              Using props and mockups, we tested various elements, including the design concept, graphic layout and overall user-friendliness. 
+            </p>
+          </div>
+          <div class="case-section__body">
+            <div class="gallery gallery--2col">
+              <figure>
+                <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="hifi" data-full-src="../images/projects/quick-larm/scenario1.webp">
+                  <img src="../images/projects/quick-larm/scenario1.webp" loading="lazy" />
+                </button>
+              </figure>
+              <div>
+                <h3>Scenario 1</h3>
+                <p>In the first scenario, the bystander had to find the unconscious person and alert emergency services via a "tap" function between their phones. 
+                  In a variation of Scenario 1, the person had fainted with their phone in their pocket, and the bystander felt uneasy about searching through the pockets of an unconscious person, describing it as an invasion of privacy. 
+                  It also took a long time to find the phone when it was inside his bag.</p>
+              </div>
+            </div>
+            <div class="gallery gallery--2col">
+              <figure>
+                <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="hifi" data-full-src="../images/projects/quick-larm/scenario2.webp">
+                  <img src="../images/projects/quick-larm/scenario2.webp" loading="lazy" />
+                </button>
+              </figure>
+              <div>
+                <h3>Scenario 2</h3>
+                <p>In Scenario 2, the unconscious person had fainted while wearing the prototype of the alert device around their neck. 
+                  The bystander could call for emergency assistance, and verify the profile thanks to the external device. 
+                  This method of alerting was quicker and more straightforward but (most importantly) it was less invasive.</p>
+              </div>
+            </div>
+            <p>The dramatization of the use context provided a better understanding of the actual movements and actions in an emergency situation, helping us identify aspects of the design to remove or add. 
+              We identified a need for an external digital device to be able to alert in a secure and dignified manner without having to go through the pockets and belongings of an unconscious person.
+            </p>
+          </div>
+        </section>
+
+        <section id="solution" class="case-section">
+          <h2 class="accent-title">Design solution</h2>
+          <div class="case-section__body">
+            <p>The users create their profile in the QuickLarm app where they can optionally disclose medical information. 
+              In an emergency, the app can be used to directly contact emergency responders, sending essential information—such as the user's identity, medical profile, and location—immediately upon the call. 
+              This streamlined data exchange helps accelerate response times and improve the efficiency of rescue operations.</p>
+            <p>Privacy and control are central to the app's design, reflecting insights gathered from early stakeholder interviews. 
+              Users have the flexibility to decide when and what medical details—such as allergies, medications, or pre-existing conditions—are shared with emergency services during an emergency. 
+              They can also choose whether to share their location, ensuring they remain in control of their sensitive data at all times.</p>
+            <p>While the app can be used on its own, there is an option to pair with an additional device called QuickTouch. 
+              This compact device can be worn around the neck or attached to a bag strap for easy access. 
+              QuickTouch syncs with the user's QuickLarm profile, and with a simple button press, it sends an emergency alert to responders. 
+              In addition, medical personnel can scan the device via NFC to instantly retrieve the user's medical profile, providing them with critical information in situations where the individual may be unable to communicate. 
+              This feature is especially valuable in time-sensitive medical emergencies, where every second counts.</p>
+          </div>
+        </section>
+
+        <section id="midfidelity" class="case-section">
+          <h2 class="accent-title">Mid fidelity prototype</h2>
+          <div class="case-section__body">
+            <p>A mid-fidelity prototype was created based on the feedback by the user scenario testing. 
+              The prototype includes a register account flow, user profile, emergency alert function, account history and QuickTouch device settings.</p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/quick-larm/mid-fi.webp">
+                <img src="../images/projects/quick-larm/mid-fi.webp" loading="lazy" />
+              </button>
+            </figure>
+          </div>
+        </section>
+
+        <section id="highfidelity" class="case-section">
+          <h2 class="accent-title">High fidelity prototype</h2>
+          <div class="case-section__body">
+            <p>During a supervised testing session, I gathered valuable feedback from a stakeholder regarding the prototype's usability. 
+              One key issue identified was that the information flow did not feel intuitive, which could be a significant barrier in emergency situations. 
+              Users in such scenarios need to make quick, decisive actions without having to navigate complex interfaces. To address this concern I implemented various design changes. 
+              For example, the emergency call button was changed to a prominent red color to enhance visibility and signal urgency and action. 
+              This change improves the overall intuitiveness of the interface, ensuring users can act quickly in high-pressure situations.
+            </p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/quick-larm/high-fi.webp">
+                <img src="../images/projects/quick-larm/high-fi.webp" loading="lazy" />
+              </button>
+            </figure>
+          </div>
+        </section>
+
+        <section id="device" class="case-section">
+          <h2 class="accent-title">QuickTouch device</h2>
+          <div class="case-section__body">
+            <p>By combining the app with the QuickTouch device, the QuickLarm system offers a dual layer of safety, ensuring that users' medical information is readily available to emergency responders, even when they are unable to advocate for themselves.</p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/quick-larm/device.webp">
+                <img src="../images/projects/quick-larm/device.webp" loading="lazy" />
+              </button>
+            </figure>
+          </div>
+        </section>
+
+        <section id="reflection" class="case-section">
+          <h2 class="accent-title">Reflection</h2>
+          <div class="case-section__body">
+            <p>This project explores the development of a mobile prototype for emergency medical situations, aimed at improving the speed and accuracy of medical alerts. 
+              The prototype focuses on providing quick access to critical medical information for unconscious individuals, helping emergency responders act faster.</p>
+            <p>Further user studies are necessary to refine the design. This will involve larger sample sizes and diverse user demographics to gather more representative data on how the device performs in various real-world situations. 
+              Testing should also focus on assessing the intuitive nature of the interface, ensuring that both the emergency alert system and the mobile app are easy to use under stressful conditions.</p>
+            <p>Furthermore, ongoing collaboration with healthcare professionals and emergency responders is essential to verify the prototype's practical application and ensure it aligns with medical protocols. 
+              Professional input will help to make the design as user-friendly and effective as possible. 
+              Finally, ethical considerations regarding privacy and the safe handling of personal medical data must be addressed.</p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <div class="container back-link-row">
+      <a href="../projects.html" class="btn btn--secondary">← Back to all work</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p>Sofia Muroga</p>
+        <p class="tagline">Designing digital experiences for Japanese users inside complex business environments.</p>
+        <p class="availability">Open to full-time and contract roles in Tokyo</p>
+      </div>
+
+      <div class="footer__col">
+        <p class="mono-label footer__col-title">Contact</p>
+        <ul>
+          <li><a href="mailto:murogasofia@gmail.com">murogasofia@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/sofia-muroga-201073151" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+          <li>Tokyo, Japan</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p data-footer-year>© 2026 Sofia Muroga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox (singleton, shared by all galleries on the page) -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lightbox__frame">
+      <img data-lightbox-image src="" alt="" />
+      <p class="lightbox__caption" data-lightbox-caption hidden></p>
+      <button type="button" class="lightbox__close" data-lightbox-close aria-label="Close image viewer">×</button>
+    </div>
+  </div>
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/project-detail.js" defer></script>
+</body>
+</html>

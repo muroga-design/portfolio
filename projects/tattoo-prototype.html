@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <title>TattooPrototype | Sofia Muroga</title>
+
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts (Google Fonts CDN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+
+</head>
+<body data-page="work">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="progress-bar" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar__fill" data-progress-fill></div>
+  </div>
+
+  <header class="navbar">
+    <nav aria-label="Primary" class="container navbar__inner">
+      <a href="../index.html" class="navbar__logo">
+        Sofia Muroga
+      </a>
+
+      <ul class="navbar__links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../projects.html" aria-current="page">Work</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+
+      <div class="navbar__cta">
+        <a href="../about.html#talk" class="btn btn--secondary btn--sm">Get in touch</a>
+      </div>
+
+      <button type="button" class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <svg class="navbar__icon-open" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M2.5 5.5H17.5M2.5 10H17.5M2.5 14.5H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+	<svg class="navbar__icon-close" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+		<path d="M4 4L16 16M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div id="mobileNav" class="navbar__mobile">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../projects.html">Work</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <a href="../about.html#talk" class="btn btn--primary btn--block">Get in touch</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="breadcrumb-bar">
+      <nav aria-label="Breadcrumb" class="container breadcrumb">
+        <a href="../projects.html">Work</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">TattooPrototype</span>
+      </nav>
+    </div>
+
+    <!-- Case hero -->
+    <header class="case-hero">
+      <div class="container">
+        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+          <span class="tag">UI</span>
+          <span class="tag">Mobile</span>
+          <span class="tag">Prototype Development</span>
+        </div>
+
+        <h1>TattooPrototype</h1>
+        <p class="case-hero__summary">TattooPrototype is a mobile app that helps tattoo artists plan and design stencils with precision, using 3D scanning and digital twin technology for accurate measurements.
+        </p>
+        <dl class="case-hero__facts">
+          <div><dt>Tools</dt><dd>Figma, Illustrator, Adobe XD</dd></div>
+          <div><dt>Field</dt><dd>UX/UI Design, Prototype Development, Product Development</dd></div>
+          <div><dt>Stakeholder</dt><dd>University of Kristianstad</dd></div>
+        </dl>
+
+        <div class="case-hero__cover">
+          <img src="../images/projects/tattoo-prototype/cover.webp" alt="Cover artwork for the TattooPrototype design case study" loading="eager" />
+        </div>
+      
+        <div class="callout callout--info" style="margin-top: 3rem;">
+            This project is for University of Kristianstad's course Interaction Design: Creativity, Design and IT, looking into mobile app prototypes supporting an activity for a digital twin. A digital twin is a virtual representation that serves as the real-time digital counterpart of a physical object or process.
+            <br>My TattooPrototype project was selected by the professors as a showcase project for future students in the course.
+        </div>
+
+      </div>
+    </header>
+
+    <div class="container case-body">
+      <aside class="case-toc">
+        <ul>
+          <li><a href="#background" data-toc-link="background">Background</a></li>
+          <li><a href="#problem" data-toc-link="problem">Problem</a></li>
+          <li><a href="#opportunity" data-toc-link="opportunity">Opportunity</a></li>
+          <li><a href="#interview" data-toc-link="interview">User interviews</a></li>
+          <li><a href="#research" data-toc-link="research">Market research</a></li>
+          <li><a href="#solution" data-toc-link="solution">Design solution</a></li>
+          <li><a href="#concept" data-toc-link="concept">Concept sketch</a></li>
+          <li><a href="#lowfidelity" data-toc-link="lowfidelity">Low fidelity prototype</a></li>
+          <li><a href="#highfidelity" data-toc-link="highfidelity">High fidelity prototype</a></li>
+          <li><a href="#prototype" data-toc-link="prototype">Final prototype</a></li>
+          <li><a href="#reflection" data-toc-link="reflection">Reflection</a></li>
+        </ul>
+      </aside>
+
+      <div class="case-sections">
+
+        <section id="background" class="case-section">
+          <h2 class="accent-title">Background</h2>
+          <div class="case-section__body">
+            <p>Sometimes a finished tattoo can look very different from the agreed-upon stencil, much to the disappointment of the client. 
+              Usually the client will have highly specific requests for their tattoo design. 
+              Various factors such as needle size, technique, placement, and the customer's skin color can influence the final appearance of the tattoo. These will be discussed together with the tattoo artist in preparations for the appointment.</p>
+          </div>
+
+        </section>
+
+        <section id="problem" class="case-section">
+          <h2 class="accent-title">Problem</h2>
+          <div class="case-section__body">
+            <p>An experienced tattoo artist is aware of these different factors and has already adjusted the design accordingly. 
+              Unfortunately, this is not always the case: causing lifelong disappointment and costly cover up appointments, or even laser removal treatment.</p>
+          </div>
+        </section>
+
+        <section id="opportunity" class="case-section">
+          <h2 class="accent-title">Opportunity</h2>
+          <div class="case-section__body">
+            <p>By using a digital twin to preview the design based on factors such as size, placement, aging, tattoo artists can use this as a tool to manage client expectations and make informed decisions for design alterations. 
+              This can enhance client satisfaction by setting realistic expectations and ensuring they feel involved and in control of the process.</p>
+            </div>
+        </section>
+
+        <section id="interview" class="case-section">
+          <h2 class="accent-title">User interviews</h2>
+          <div class="case-section__body">
+            <p>From interviews with 15 people who regret their tattoos, I learned more about the most common cause of regret.</p>
+            <p>Up to 40% felt like their tattoos did not turn out the way they had expected. When asked why, most common reasons were bad tattoos due to inexperienced tattoo artists, and design choices that did not turn out how they imagined.</p>
+          </div>
+          <dl class="stat-grid stat-grid--metrics">
+            <div><dd>40%</dd><dt>Did not look as expected</dt></div>
+            <div><dd>20%</dd><dt>Placement</dt></div>
+            <div><dd>20%</dd><dt>Design choice</dt></div>
+            <div><dd>13%</dd><dt>Size</dt></div>
+            <div><dd>7%</dd><dt>Cost</dt></div>
+          </dl>
+          <div class="callout callout--info">
+            <span class="callout__label">Design question</span>
+            How might digital tools help bridge expectations and outcome?
+          </div>
+        </section>
+
+        <section id="research" class="case-section">
+          <h2 class="accent-title">Market research</h2>
+          <div class="case-section__body">
+            <p>From the market research I want to highlight these two examples of a common reason for client dissatisfaction.
+            </p>
+          </div>
+          <div class="case-section__body">
+            <div class="gallery gallery--2col">
+              <figure>
+                <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="hifi" data-full-src="../images/projects/tattoo-prototype/age.webp">
+                  <img src="../images/projects/tattoo-prototype/age.webp" loading="lazy" />
+                </button>
+              <figcaption>Image from Tiktok.</figcaption>
+              </figure>
+              <div>
+                <h3>Tattoo aging</h3>
+                <p>The two images on the left are from a TikTok user who is dissatisfied with their tattoo after it has healed. The issue lies in the design itself: with too many small details on a small area, and the entire tattoo was done with a single needle. In the healed tattoo, the lines have "blended," and the details are difficult to distinguish. The end result is a healed tattoo that looks different from the initial design.
+                </p>
+              </div>
+            </div>
+            <div class="gallery gallery--2col">
+              <figure>
+                <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="hifi" data-full-src="../images/projects/tattoo-prototype/color.webp">
+                  <img src="../images/projects/tattoo-prototype/color.webp" loading="lazy" />
+                </button>
+              <figcaption>Image from Pinterest.</figcaption>
+              </figure>
+              <div>
+                <h3>Tattoo color</h3>
+                <p>The image on the left is a representation of how the same ink colors can appear different based on the clients' skin color. In a simplified explanation: when someone is tattooed, tiny needles penetrate the skin and deposit ink inside the layers of the skin. 
+                  This becomes a problem when inexperienced tattoo artists - presumably accustomed to a very homogeneous client base - tattoo harder and deeper on darker skin compared to lighter skin. This can harm the clients skin and ruin the tattoo. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="solution" class="case-section">
+          <h2 class="accent-title">Design solution</h2>
+          <div class="case-section__body">
+            <p>Avoid client dissatisfaction by using a digital twin application, which allows the client to see the design on their body before proceeding to getting tattoos.</p>
+            <p>Allow tattoo artists to make adjustments to size, placement, color and design based on how it will appear on the clients' own body.</p>
+            <p>Make the client feel in control of their own tattoo process, increasing communication between tattoo artist and client which will leave little room for misunderstandings or disappointment.</p>
+          </div>
+        </section>
+
+        <section id="concept" class="case-section">
+          <h2 class="accent-title">Concept sketch</h2>
+          <div class="case-section__body">
+            <p>After feeling confident in my understanding for the problem area I started sketching for solutions. 
+              With a content priority guide I explored simple wireframes.</p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/tattoo-prototype/concept.webp">
+                <img src="../images/projects/tattoo-prototype/concept.webp" loading="lazy" />
+              </button>
+            </figure>
+          </div>
+        </section>
+
+        <section id="lowfidelity" class="case-section">
+          <h2 class="accent-title">Low fidelity prototype</h2>
+          <div class="case-section__body">
+            <p>An early Low-Fidelity prototype was created based on sketches, wireframes and content priority guides. 
+            </p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/tattoo-prototype/lowfi.webp">
+                <img src="../images/projects/tattoo-prototype/lowfi.webp" loading="lazy" />
+              </button>
+            </figure>
+          </div>
+        </section>
+
+        <section id="highfidelity" class="case-section">
+          <h2 class="accent-title">High fidelity prototype</h2>
+          <div class="case-section__body">
+            <p>After further design alterations and mapping out the user journey, I created a prototype with higher fidelity.
+            </p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/tattoo-prototype/highfi.webp">
+                <img src="../images/projects/tattoo-prototype/highfi.webp" loading="lazy" />
+              </button>
+            </figure>
+          </div>
+        </section>
+
+        <section id="prototype" class="case-section">
+          <h2 class="accent-title">Final prototype</h2>
+          <div class="case-section__body">
+            <p>This digital artifact is intended for use by tattoo clients together with tattoo artists. 
+              The client inputs their information, which helps the program's AI provide precise information about the tattoo.
+            </p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/tattoo-prototype/final1.webp">
+                <img src="../images/projects/tattoo-prototype/final1.webp" loading="lazy" />
+              </button>
+            </figure>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/tattoo-prototype/final2.webp">
+                <img src="../images/projects/tattoo-prototype/final2.webp" loading="lazy" />
+              </button>
+              <figcaption>After the client has set up their profile, both the face and body are scanned to create a 3D model of the client.</figcaption>
+            </figure>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/tattoo-prototype/final3.webp">
+                <img src="../images/projects/tattoo-prototype/final3.webp" loading="lazy" />
+              </button>
+              <figcaption>The 3D scan creates a digital twin of the client, which can be used to test and preview tattoo designs.</figcaption>
+            </figure>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/tattoo-prototype/final4.webp">
+                <img src="../images/projects/tattoo-prototype/final4.webp" loading="lazy" />
+              </button>
+              <figcaption>Afterward, the tattoo design is uploaded into the system. Here, it's possible to place the design anywhere on the body and try different placements and sizes.</figcaption>
+            </figure>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button type="button" class="gallery__trigger" data-lightbox-trigger data-gallery="ideation" data-full-src="../images/projects/tattoo-prototype/final5.webp">
+                <img src="../images/projects/tattoo-prototype/final5.webp" loading="lazy" />
+              </button>
+              <figcaption>With the help of AI, it's also possible to see how the tattoo will look immediately after it's done, when it's healed, and even as aged.</figcaption>
+            </figure>
+          </div>
+          <div class="case-section__body">
+            <p>At this stage, they can determine if the tattoo is too small and won't look good when healed, allowing the tattoo artist to make adjustments before starting the tattoo. 
+              Once corrections are made, the design can be printed, and an exact stencil in the right size based on the digital twin will be generated. 
+              Subsequently, the new tattoo will be present on the customer's digital twin, allowing them to plan their next tattoo with precision.
+            </p>
+          </div>
+        </section>
+
+        <section id="reflection" class="case-section">
+          <h2 class="accent-title">Reflection</h2>
+          <div class="case-section__body">
+            <p>This project explores the digital twin concept for an early-stage mobile prototype, encompassing market research, design ideation, and prototype development.</p>
+            <p>To refine and expand the project, further user studies are required. The initial field interview involved a small sample size of 15 participants; a larger pool would provide more reliable data.</p>
+            <p>Early-stage development would benefit from creating detailed user personas and seeking professional insights from practicing tattoo artists.</p>
+            <p>Subsequent user studies should focus on testing the prototype, gathering valuable feedback, and implementing changes based on that input.</p>
+            <p>Additionally, further research into the ethical and safe use of the technology for clients is necessary to ensure its responsible application.</p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <div class="container back-link-row">
+      <a href="../projects.html" class="btn btn--secondary">← Back to all work</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p>Sofia Muroga</p>
+        <p class="tagline">Designing digital experiences for Japanese users inside complex business environments.</p>
+        <p class="availability">Open to full-time and contract roles in Tokyo</p>
+      </div>
+
+      <div class="footer__col">
+        <p class="mono-label footer__col-title">Contact</p>
+        <ul>
+          <li><a href="mailto:murogasofia@gmail.com">murogasofia@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/sofia-muroga-201073151" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+          <li>Tokyo, Japan</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p data-footer-year>© 2026 Sofia Muroga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox (singleton, shared by all galleries on the page) -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lightbox__frame">
+      <img data-lightbox-image src="" alt="" />
+      <p class="lightbox__caption" data-lightbox-caption hidden></p>
+      <button type="button" class="lightbox__close" data-lightbox-close aria-label="Close image viewer">×</button>
+    </div>
+  </div>
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/project-detail.js" defer></script>
+</body>
+</html>
