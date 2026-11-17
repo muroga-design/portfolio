@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <title>Sofia Muroga | Web Designer</title>
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts (Google Fonts CDN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body data-page="home">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="navbar">
+    <nav aria-label="Primary" class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        Sofia Muroga
+      </a>
+
+      <ul class="navbar__links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="projects.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+      <div class="navbar__cta">
+        <a href="about.html#talk" class="btn btn--secondary btn--sm">Get in touch</a>
+      </div>
+
+      <button type="button" class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <svg class="navbar__icon-open" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M2.5 5.5H17.5M2.5 10H17.5M2.5 14.5H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+          <svg class="navbar__icon-close" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M4 4L16 16M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div id="mobileNav" class="navbar__mobile">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="about.html#talk" class="btn btn--primary btn--block">Get in touch</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container hero__grid">
+        <div class="bg-wm">
+          <h1>Hi,<br>I'm Sofia Muroga</h1>
+
+          <div class="hero__pill">
+            <span class="hero__dot" aria-hidden="true"></span>
+            室賀 ソフィア
+          </div>
+        </div>
+
+        <div>
+          <h2>FinTech Web Designer based in Tokyo</h2>
+          <p class="hero__lede">
+            With over 2 years' experience in the Japanese FinTech industry, I design to reduce friction, improve conversion and usability and to elevate digital experiences, always with the user at the core.
+          </p>
+          <div class="hero__actions">
+            <a href="projects.html" class="btn btn--primary">View selected work</a>
+            <a href="about.html#talk" class="btn btn--secondary">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected work -->
+    <section class="section">
+      <div class="container">
+        <div class="row-between">
+          <div class="section-title">
+            <h2>Recent work</h2>
+          </div>
+          <a href="projects.html" class="btn btn--secondary">View all projects</a>
+        </div>
+
+        <div class="project-grid">
+          <a href="projects/checkout-redesign.html" class="card card--interactive project-card">
+            <div class="project-card__media">
+              <img src="images/projects/checkout-redesign/thumb.webp" alt="Preview thumbnail of the checkout redesign" width="960" height="720" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">UX</span>
+                <span class="tag">UI</span>
+                <span class="tag">Mobile</span>
+              </div>
+              <h3>Improving discoverability in IKEA's membership journey</h3>
+            </div>
+          </a>
+
+          <a href="projects/scroll-redesign.html" class="card card--interactive project-card" style="transition-delay:0.08s;">
+            <div class="project-card__media">
+              <img src="images/projects/scroll-redesign/thumb.webp" alt="Preview thumbnail of the scroll redesign" width="960" height="720" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">UX</span>
+                <span class="tag">Design Research</span>
+                <span class="tag">Mobile</span>
+              </div>
+              <h3>Supporting perceived agency in attention-driven social media design</h3>
+            </div>
+          </a>
+
+          <a href="projects/design-work.html" class="card card--interactive project-card" style="transition-delay:0.16s;">
+            <div class="project-card__media">
+              <img src="images/projects/design-work/thumb.webp" alt="Preview thumbnail of the web design work" width="960" height="720" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">UX</span>
+                <span class="tag">UI</span>
+                <span class="tag">Web</span>
+              </div>
+              <h3>Web Design and Digital Experience at Saxo Bank Japan</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About preview -->
+    <section class="section">
+      <div class="container photo-text-grid">
+        <div class="photo-frame photo-frame--sm">
+          <img src="images/misc/portrait.webp" alt="Hand-drawn photo of Sofia Muroga" loading="lazy" />
+        </div>
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2 style="font-size:1.75rem;">Designing across multiple working cultures</h2>
+          <p style="margin-top:1.5rem; max-width:36rem; color:var(--ink-muted); line-height:1.7;">
+            Much of my work involves bridging Japanese and global teams. 
+            Commercial strategy discussions may happen in Japanese while documentation, design rationale and project communication are shared in English.
+            <br><br>Living and working across both cultures has shaped how I think about design, giving me first-hand experience of the differences in user expectations, communication styles and digital conventions between European and Japanese products.
+          </p>
+          <div style="margin-top:1.5rem;">
+            <a href="about.html" class="link-arrow">Learn more about me <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p>Sofia Muroga</p>
+        <p class="tagline">Designing digital experiences for Japanese users inside complex business environments.</p>
+        <p class="availability">Open to full-time and contract roles in Tokyo</p>
+      </div>
+
+      <div class="footer__col">
+        <p class="mono-label footer__col-title">Contact</p>
+        <ul>
+          <li><a href="mailto:murogasofia@gmail.com">murogasofia@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/sofia-muroga-201073151" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+          <li>Tokyo, Japan</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p data-footer-year>© 2026 Sofia Muroga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

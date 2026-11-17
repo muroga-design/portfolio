@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <title>Work | Sofia Muroga</title>
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts (Google Fonts CDN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body data-page="work">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="navbar">
+    <nav aria-label="Primary" class="container navbar__inner"> 
+      <a href="index.html" class="navbar__logo">
+        Sofia Muroga
+      </a>
+
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" aria-current="page">Work</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+      <div class="navbar__cta">
+        <a href="about.html#talk" class="btn btn--secondary btn--sm">Get in touch</a>
+      </div>
+
+      <button type="button" class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <svg class="navbar__icon-open" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M2.5 5.5H17.5M2.5 10H17.5M2.5 14.5H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+	<svg class="navbar__icon-close" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+		<path d="M4 4L16 16M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div id="mobileNav" class="navbar__mobile">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="about.html#talk" class="btn btn--primary btn--block">Get in touch</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container" style="padding-block: var(--space-16);">
+      <div class="section-title">
+        <h2 style="font-size:2.25rem;">Case studies and projects</h2>
+        <p>These case studies and projects show how I approach design: from understanding the problem and exploring solutions to validating decisions and reflecting on the outcome.</p>
+      </div>
+
+      <div style="margin-top:3rem;">
+        <div class="filter-bar" role="group" aria-label="Filter projects by category">
+          <button type="button" class="chip" data-filter-chip="all" aria-pressed="true">All work</button>
+          <button type="button" class="chip" data-filter-chip="UX" aria-pressed="false">UX</button>
+          <button type="button" class="chip" data-filter-chip="UI" aria-pressed="false">UI</button>
+          <button type="button" class="chip" data-filter-chip="Design Research" aria-pressed="false">Design Research</button>
+          <button type="button" class="chip" data-filter-chip="Prototype Development" aria-pressed="false">Prototype Development</button>
+          <button type="button" class="chip" data-filter-chip="Mobile" aria-pressed="false">Mobile</button>
+          <button type="button" class="chip" data-filter-chip="Web" aria-pressed="false">Web</button>
+        </div>
+
+        <p class="filter-count" data-filter-count aria-live="polite">5 projects</p>
+
+        <div class="project-grid">
+          <a href="projects/checkout-redesign.html" class="card card--interactive project-card" data-categories="UX,UI,Mobile">
+            <div class="project-card__media">
+              <img src="images/projects/checkout-redesign/thumb.webp" alt="Preview thumbnail of the checkout redesign" width="960" height="720" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">UX</span>
+                <span class="tag">UI</span>
+                <span class="tag">Mobile</span>
+              </div>
+              <h3>Improving discoverability in IKEA's membership journey</h3>
+              <dl class="project-card__meta">
+                <div><dt class="visually-hidden">Timeline</dt><dd>Independent case study</dd></div>
+              </dl>
+              <p class="project-card__outcome">An independent UX case study exploring how information architecture and interaction design can reduce friction during a time-sensitive checkout experience.</p>
+            </div>
+          </a>
+
+          <a href="projects/scroll-redesign.html" class="card card--interactive project-card" data-categories="UX,Design Research,Mobile">
+            <div class="project-card__media">
+              <img src="images/projects/scroll-redesign/thumb.webp" alt="Preview thumbnail of the scroll redesign" width="960" height="720" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">UX</span>
+                <span class="tag">Design Research</span>
+                <span class="tag">Mobile</span>
+              </div>
+              <h3>Supporting perceived agency in attention-driven social media design</h3>
+              <dl class="project-card__meta">
+                <div><dt class="visually-hidden">Timeline</dt><dd>University of Kristianstad</dd></div>
+              </dl>
+              <p class="project-card__outcome">A UX research project exploring how interaction design can help users with ADHD recognise and interrupt attention-capturing patterns on Instagram: using a Nudging strategy.</p>
+            </div>
+          </a>
+
+          <a href="projects/design-work.html" class="card card--interactive project-card" data-categories="UX,UI,Web">
+            <div class="project-card__media">
+              <img src="images/projects/design-work/thumb.webp" alt="Preview thumbnail of the web design work" width="960" height="720" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">UX</span>
+                <span class="tag">UI</span>
+                <span class="tag">Web</span>
+              </div>
+              <h3>Web Design and Digital Experience at Saxo Bank Japan</h3>
+              <dl class="project-card__meta">
+                <div><dt class="visually-hidden">Timeline</dt><dd>Saxo Bank Securities Ltd.</dd></div>
+              </dl>
+              <p class="project-card__outcome">Design work as the Web Designer for Saxo Bank Securities Ltd. in Tokyo, covering Web Design and implementation, UX/UI uplifts, design for digital client communication and digital marketing.</p>
+            </div>
+          </a>
+
+          <a href="projects/quick-larm.html" class="card card--interactive project-card" data-categories="UI,Prototype Development,Mobile">
+            <div class="project-card__media">
+              <img src="images/projects/quick-larm/thumb.webp" alt="Preview thumbnail of the QuickLarm design project" width="960" height="720" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">UI</span>
+                <span class="tag">Prototype Development</span>
+                <span class="tag">Mobile</span>
+              </div>
+              <h3>QuickLarm</h3>
+              <dl class="project-card__meta">
+                <div><dt class="visually-hidden">Timeline</dt><dd>University of Kristianstad</dd></div>
+              </dl>
+              <p class="project-card__outcome">Exploring possible experiences and services to create an interactive digital prototype of a design concept within the following problem area: Digital tools for saving seconds in rescue operations.</p>
+            </div>
+          </a>
+
+          <a href="projects/tattoo-prototype.html" class="card card--interactive project-card" data-categories="UI,Prototype Development,Mobile">
+            <div class="project-card__media">
+              <img src="images/projects/tattoo-prototype/thumb.webp" alt="Preview thumbnail of the TattooPrototype design project" width="960" height="720" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">UI</span>
+                <span class="tag">Prototype Development</span>
+                <span class="tag">Mobile</span>
+              </div>
+              <h3>TattooPrototype</h3>
+              <dl class="project-card__meta">
+                <div><dt class="visually-hidden">Timeline</dt><dd>University of Kristianstad</dd></div>
+              </dl>
+              <p class="project-card__outcome">TattooPrototype is a mobile app that helps tattoo artists plan and design stencils with precision, using 3D scanning and digital twin technology for accurate measurements.</p>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="empty-state" data-empty-state hidden>
+          <p>No projects in this category yet.</p>
+          <p>Try a different filter.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p>Sofia Muroga</p>
+        <p class="tagline">Designing digital experiences for Japanese users inside complex business environments.</p>
+        <p class="availability">Open to full-time and contract roles in Tokyo</p>
+      </div>
+
+      <div class="footer__col">
+        <p class="mono-label footer__col-title">Contact</p>
+        <ul>
+          <li><a href="mailto:murogasofia@gmail.com">murogasofia@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/sofia-muroga-201073151" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+          <li>Tokyo, Japan</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p data-footer-year>© 2026 Sofia Muroga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/project-filter.js" defer></script>
+</body>
+</html>
